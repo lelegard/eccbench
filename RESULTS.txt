@@ -1,0 +1,41 @@
+CRYPTOGRAPHIC OPERATIONS PER SECOND
+
+CPU                 i7-8565U
+CPU core        Whiskey Lake
+Frequency           4.20 GHz
+OpenSSL                3.5.3
+------------   -------------
+P-256 sign        49,252 (1)
+P-256 verify      17,203 (1)
+P-384 sign         4,612 (1)
+P-384 verify       2,044 (1)
+P-521 sign         3,696 (1)
+P-521 verify       1,899 (1)
+
+CRYPTOGRAPHIC OPERATIONS PER 1,000,000,000 PROCESSOR CYCLES
+
+CPU                 i7-8565U
+CPU core        Whiskey Lake
+Frequency           4.20 GHz
+OpenSSL                3.5.3
+------------   -------------
+P-256 sign        11,726 (1)
+P-256 verify       4,096 (1)
+P-384 sign         1,098 (1)
+P-384 verify         486 (1)
+P-521 sign           880 (1)
+P-521 verify         452 (1)
+
+CYCLES PER CRYPTOGRAPHIC OPERATION
+
+CPU                 i7-8565U
+CPU core        Whiskey Lake
+Frequency           4.20 GHz
+OpenSSL                3.5.3
+------------   -------------
+P-256 sign        85,274 (1)
+P-256 verify     244,139 (1)
+P-384 sign       910,563 (1)
+P-384 verify   2,054,117 (1)
+P-521 sign     1,136,188 (1)
+P-521 verify   2,211,480 (1)
